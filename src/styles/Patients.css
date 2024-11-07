@@ -1,0 +1,88 @@
+.patients-container {
+    padding: 20px;
+    color: #1a1f36;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif;
+}
+
+.patients-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.patients-table {
+    overflow-x: auto;
+}
+
+.patients-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.patients-table th, .patients-table td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+.patients-table th {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="datetime-local"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: none;
+    height: 80px; /* Fixed height for notes */
+}

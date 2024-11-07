@@ -1,0 +1,78 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5469d4; /* Navbar background color */
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  /* Logo styling */
+  .navbar-logo img {
+    height: 40px;
+    width: 40px;
+  }
+  
+  /* Navbar links styling */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center align links */
+    flex-grow: 1; /* Allows links to take up available space */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin: 0 15px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #ffeb3b;
+  }
+  
+  /* Profile section styling */
+  .navbar-profile {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Space between profile picture and name */
+    margin-left: auto;
+  }
+  
+  .profile-picture {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 2px solid white; /* White border around profile picture */
+  }
+  
+  .profile-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Logout button styling */
+  .logout-button {
+    background-color: #ff4d4d; /* Soft red for button */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+  }
+  
